@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GLOVER version="1.1.0" GlobalMute="0" PerformMode="0">
+  <DEVICEMANGER CurrentDevice="0">
+    <DEVICE DeviceType="MicrobitDevice" DeviceUniqueId="20549" UserDeviceName="Microbit"
+            Mute="0" ConnectedMicrobitId="BCD77B2E-09BE-42C1-8198-D3F567852F04"
+            MicrobitModel="2" Colour="ffcc06c4"/>
+  </DEVICEMANGER>
+  <ARRANGEMENTMANAGER CurrentArrangement="0">
+    <ARRANGEMENT Name="Winter" NumScenes="1" CurrentScene="0" SoloCount="0" AssociatedProjectFileList=""
+                 AutoLoadAssociatedFiles="0" MidiAssignment="">
+      <SCENE Title="Scene 1" IsGlobal="0" IgnoreGlobalScenes="0" IsStartUpScene="0"
+             Description="">
+        <MAPPINGINPUTLIST>
+          <MAPPINGINPUT InputMin="0.0" InputMax="1.0" OutputMin="0.0" OutputMax="127.0"
+                        WarpFactor="0.0" OutputValue="127" AltOutputValue="0" OutputVelocitySensitive="1"
+                        AltOutputVelocitySensitive="1" ToggleMode="0" MovementThreshold="0.5"
+                        MovementThresholdEnabled="0" ThresholdOnsetValue="127" ThresholdReleaseValue="0"
+                        ShouldSendValueOnThresholdOnset="1" ShouldSendValueOnThresholdRelease="0"
+                        InputValueMode="0" ShouldSendResetMessages="0" ResetMessageValue="0"
+                        ResetMessageRampTimeInMilliseconds="150" UniqueId="1646374828856"
+                        Name="dist" ShouldAutoGenerateName="0" Type="1" LabelColour="ffffffff">
+            <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+              <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin0"
+                               InputType="2" Inverted="0"/>
+              <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="Pitch"
+                               InputType="3" Inverted="0"/>
+            </INPUTCOMBINATION>
+          </MAPPINGINPUT>
+          <MAPPINGINPUT InputMin="0.0" InputMax="1.0" OutputMin="0.0" OutputMax="127.0"
+                        WarpFactor="0.0" OutputValue="127" AltOutputValue="0" OutputVelocitySensitive="1"
+                        AltOutputVelocitySensitive="1" ToggleMode="0" MovementThreshold="0.5"
+                        MovementThresholdEnabled="0" ThresholdOnsetValue="127" ThresholdReleaseValue="0"
+                        ShouldSendValueOnThresholdOnset="1" ShouldSendValueOnThresholdRelease="0"
+                        InputValueMode="0" ShouldSendResetMessages="1" ResetMessageValue="0"
+                        ResetMessageRampTimeInMilliseconds="150" UniqueId="1646374871399"
+                        Name="verb" ShouldAutoGenerateName="0" Type="1" LabelColour="ffffffff">
+            <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+              <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin2"
+                               InputType="2" Inverted="0"/>
+              <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="Roll"
+                               InputType="3" Inverted="0"/>
+            </INPUTCOMBINATION>
+          </MAPPINGINPUT>
+          <MAPPINGINPUT InputMin="0.0" InputMax="1.0" OutputMin="0.0" OutputMax="127.0"
+                        WarpFactor="0.0" OutputValue="127" AltOutputValue="0" OutputVelocitySensitive="1"
+                        AltOutputVelocitySensitive="1" ToggleMode="0" MovementThreshold="0.5"
+                        MovementThresholdEnabled="0" ThresholdOnsetValue="127" ThresholdReleaseValue="0"
+                        ShouldSendValueOnThresholdOnset="1" ShouldSendValueOnThresholdRelease="0"
+                        InputValueMode="0" ShouldSendResetMessages="0" ResetMessageValue="0"
+                        ResetMessageRampTimeInMilliseconds="0" UniqueId="1646376048017"
+                        Name="Drum Hit" ShouldAutoGenerateName="1" Type="0" LabelColour="ffffffff">
+            <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+              <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DrumHit"
+                               InputType="1" Inverted="0"/>
+            </INPUTCOMBINATION>
+          </MAPPINGINPUT>
+        </MAPPINGINPUTLIST>
+        <MAPPINGOUTPUTLIST>
+          <MAPPINGOUTPUT Mute="0" Solo="0" Name="" UniqueId="1646374849688" Initialiser="0"
+                         ExitMessage="0" OutputValue="1" LabelColour="ffffffff" ViewIsExpanded="0">
+            <MIDIOUTPUT Channel="1" MIDINumber="20" Mute="0" Solo="0" MidiOutputPort="Glover"
+                        MessageType="3" NoteLength="1000"/>
+          </MAPPINGOUTPUT>
+          <MAPPINGOUTPUT Mute="0" Solo="0" Name="" UniqueId="1646374880877" Initialiser="0"
+                         ExitMessage="0" OutputValue="1" LabelColour="ffffffff" ViewIsExpanded="0">
+            <MIDIOUTPUT Channel="1" MIDINumber="21" Mute="0" Solo="0" MidiOutputPort="Glover"
+                        MessageType="3" NoteLength="1000"/>
+          </MAPPINGOUTPUT>
+        </MAPPINGOUTPUTLIST>
+        <CONNECTEDNODELIST>
+          <CONNECTEDNODE MappingInputUniqueId="1646374828856" MappingOutputUniqueId="1646374849688"
+                         MappingInputPortNumber="0"/>
+          <CONNECTEDNODE MappingInputUniqueId="1646374871399" MappingOutputUniqueId="1646374880877"
+                         MappingInputPortNumber="0"/>
+        </CONNECTEDNODELIST>
+        <INSTRUMENTLIST>
+          <INSTRUMENT Type="NOTEMATRIX" Mute="0" Solo="0" Name="" LabelColour="ffffffff"
+                      MidiOutputPort="Glover" MidiChannel="1" CurrentMelody="0" EndNotesUponSceneSwitch="1"
+                      RetriggerNotesWithQualifiers="1">
+            <INSTRUMENTPARAMETERS>
+              <INSTRUMENTPARAMETER parameterId="Velocity" name="Velocity" InputMin="0.0" InputMax="1.0"
+                                   OutputMin="0.0" OutputMax="127.0" WarpFactor="0.0">
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </INSTRUMENTPARAMETER>
+              <INSTRUMENTPARAMETER parameterId="NoteLength" name="Note Length" InputMin="0.0" InputMax="1.0"
+                                   OutputMin="50.0" OutputMax="3000.0" WarpFactor="0.0">
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </INSTRUMENTPARAMETER>
+            </INSTRUMENTPARAMETERS>
+            <MELODYLIST>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="5" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES>
+                  <NOTE NoteNumber="71" CreationTimeMs="1646375044812"/>
+                  <NOTE NoteNumber="73" CreationTimeMs="1646375150678"/>
+                  <NOTE NoteNumber="75" CreationTimeMs="1646375151282"/>
+                  <NOTE NoteNumber="80" CreationTimeMs="1646375155905"/>
+                  <NOTE NoteNumber="78" CreationTimeMs="1646375156581"/>
+                  <NOTE NoteNumber="59" CreationTimeMs="1646375158084"/>
+                  <NOTE NoteNumber="54" CreationTimeMs="1646375158770"/>
+                  <NOTE NoteNumber="56" CreationTimeMs="1646375159449"/>
+                  <NOTE NoteNumber="90" CreationTimeMs="1646375162325"/>
+                  <NOTE NoteNumber="83" CreationTimeMs="1646375163113"/>
+                </NOTES>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin1"
+                                   InputType="2" Inverted="0"/>
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="Pitch"
+                                   InputType="3" Inverted="0"/>
+                </INPUTCOMBINATION>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES>
+                  <NOTE NoteNumber="73" CreationTimeMs="1646375048445"/>
+                </NOTES>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES>
+                  <NOTE NoteNumber="75" CreationTimeMs="1646375050469"/>
+                </NOTES>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES>
+                  <NOTE NoteNumber="80" CreationTimeMs="1646375054621"/>
+                </NOTES>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES>
+                  <NOTE NoteNumber="78" CreationTimeMs="1646375061846"/>
+                </NOTES>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="Pitch"
+                                   InputType="3" Inverted="0"/>
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin1"
+                                   InputType="2" Inverted="0"/>
+                </INPUTCOMBINATION>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+              <MELODY NoteLengthInMs="1000" Velocity="100" NoteOrder="1" InputMin="0.0"
+                      InputMax="1.0">
+                <NOTES/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </MELODY>
+            </MELODYLIST>
+          </INSTRUMENT>
+          <INSTRUMENT Type="CHORDMACHINE" Mute="0" Solo="0" Name="" LabelColour="ffffffff"
+                      MidiOutputPort="Glover" MidiChannel="2" CurrentChord="2" Mode="1"
+                      EndChordsUponSceneSwitch="1" ChordPlayed="0">
+            <INSTRUMENTPARAMETERS/>
+            <CHORDLIST>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="---" ChordShortName="---">
+                <NOTELIST>
+                  <NOTE MidiNumber="56"/>
+                  <NOTE MidiNumber="63"/>
+                  <NOTE MidiNumber="71"/>
+                  <NOTE MidiNumber="90"/>
+                  <NOTE MidiNumber="87"/>
+                  <NOTE MidiNumber="83"/>
+                  <NOTE MidiNumber="85"/>
+                  <NOTE MidiNumber="78"/>
+                  <NOTE MidiNumber="44"/>
+                </NOTELIST>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DrumHit"
+                                   InputType="1" Inverted="0"/>
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin2"
+                                   InputType="2" Inverted="0"/>
+                </INPUTCOMBINATION>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="B Major 9" ChordShortName="B Major 9">
+                <NOTELIST>
+                  <NOTE MidiNumber="59"/>
+                  <NOTE MidiNumber="47"/>
+                  <NOTE MidiNumber="71"/>
+                  <NOTE MidiNumber="78"/>
+                  <NOTE MidiNumber="75"/>
+                  <NOTE MidiNumber="82"/>
+                  <NOTE MidiNumber="73"/>
+                </NOTELIST>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin0"
+                                   InputType="2" Inverted="0"/>
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DrumHit"
+                                   InputType="1" Inverted="0"/>
+                </INPUTCOMBINATION>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="E Major 9" ChordShortName="E Major 9">
+                <NOTELIST>
+                  <NOTE MidiNumber="52"/>
+                  <NOTE MidiNumber="64"/>
+                  <NOTE MidiNumber="76"/>
+                  <NOTE MidiNumber="78"/>
+                  <NOTE MidiNumber="83"/>
+                  <NOTE MidiNumber="80"/>
+                  <NOTE MidiNumber="75"/>
+                </NOTELIST>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name="">
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DrumHit"
+                                   InputType="1" Inverted="0"/>
+                  <INPUTIDENTIFIER DeviceUniqueId="20549" DeviceType="MicrobitDevice" InputId="DigitalPin1"
+                                   InputType="2" Inverted="0"/>
+                </INPUTCOMBINATION>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+              <CHORD Velocity="100" NoteSpread="0" ChordName="" ChordShortName="">
+                <NOTELIST/>
+                <INPUTCOMBINATION Valid="1" InputEventThreshold="0.4000000059604645" Name=""/>
+              </CHORD>
+            </CHORDLIST>
+          </INSTRUMENT>
+        </INSTRUMENTLIST>
+      </SCENE>
+    </ARRANGEMENT>
+  </ARRANGEMENTMANAGER>
+</GLOVER>
