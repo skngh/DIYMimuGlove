@@ -26,11 +26,15 @@ Next, all you need to do is open up the Glover software, choose the Micro:bit, t
 
 ![Back of Glove](/relative/path/to/back.jpg?raw=true "Back of Glove")
 
-[![Demo Video](http://img.youtube.com/vi/5-CkCcIOAzc/0.jpg)](http://www.youtube.com/watch?v=5-CkCcIOAzc "DIY Mi.Mu Glove Using a Micro:bit Demo")
+
 
 ## Demo
 
 Here's a simple demo I made for a song I wrote. It's using Glover's "Note Matrix" and "Chord Machine" features to randomly sweep through notes I inputted, and to trigger chords using drum hit data. I have a distortion VST being controller with the pitch of the glove when I hold down button 1, and reverb being controller with the yaw + button 2. I've included the patch I used up above for those who want to check it out themselves.
+
+#### Click here for Demo
+
+[![Demo Video](http://img.youtube.com/vi/5-CkCcIOAzc/0.jpg)](http://www.youtube.com/watch?v=5-CkCcIOAzc "DIY Mi.Mu Glove Using a Micro:bit Demo")
 
 ## Additional Notes
 
