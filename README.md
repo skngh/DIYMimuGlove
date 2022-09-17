@@ -22,9 +22,9 @@ If soldering really isn't your thing, you can always pick up some [crocodile cli
 
 Next, all you need to do is open up the Glover software, choose the Micro:bit, the version you're using, and you're off to making some music!
 
-![Front of Glove](/relative/path/to/front.jpg?raw=true "Front of Glove")
+![Front of Glove](/front.jpg?raw=true "Front of Glove")
 
-![Back of Glove](/relative/path/to/back.jpg?raw=true "Back of Glove")
+![Back of Glove](/back.jpg?raw=true "Back of Glove")
 
 
 
