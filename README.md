@@ -8,7 +8,7 @@ The Mi.Mu Gloves are a fantastic performance device. They're an easy way to cont
 
 ## The BBC Micro:bit
 
-After Mi.Mu sold their Glover software separately from the gloves, I checked it out and noticed the ability to connect it to something called the "Micro:bit." After digging a bit more, I discovered that the first prototypes of the gloves were actually made with the Micr:bit, which is a simple "pocket-sized computer" used for educational purposes in early schooling. On top of that, Mi.Mu used to sell a product called the [MINI.MU](https://www.adafruit.com/product/4141), which is essentially what we'll be making. Seems like an odd thing to use for a musical glove, but it actually includes an accelerometer and compass, which we can use to send the same data that the gloves do.
+After Mi.Mu sold their Glover software separately from the gloves, I checked it out and noticed the ability to connect it to something called the "Micro:bit." After digging a bit more, I discovered that the first prototypes of the gloves were actually made with the Micro:bit, which is a simple "pocket-sized computer" used for educational purposes in early schooling. On top of that, Mi.Mu used to sell a product called the [MINI.MU](https://www.adafruit.com/product/4141), which is essentially what we'll be making. Seems like an odd thing to use for a musical glove, but it actually includes an accelerometer and compass, which we can use to send similar data that the gloves do.
 
 ## The Build
 
@@ -30,7 +30,7 @@ Next, all you need to do is open up the Glover software, choose the Micro:bit, t
 
 ## Demo
 
-Here's a simple demo I made for a song I wrote. It's using Glover's "Note Matrix" and "Chord Machine" features to randomly sweep through notes I inputted, and to trigger chords using drum hit data. I have a distortion VST being controller with the pitch of the glove when I hold down button 1, and reverb being controller with the yaw + button 2. I've included the patch I used up above for those who want to check it out themselves.
+Here's a simple demo I made for a song I wrote. It's using Glover's "Note Matrix" and "Chord Machine" features to randomly sweep through notes I inputted, and to trigger chords using the "drum hit" data. I have a distortion VST being controlled with the pitch of the glove when I hold down button 1, and reverb being controller with the yaw + button 2. I've included the patch I used up above for those who want to check it out themselves.
 
 #### Click here for Demo
 
